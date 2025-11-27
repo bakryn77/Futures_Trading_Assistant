@@ -17,20 +17,6 @@ Add duplicate-trade protection
 Implement cleaned trade data format
 Add basic analytics (win rate, average win, average loss)
 
-Project Structure
-Futures_Trading_Assistant/
- ├── main.py                 # CLI menu and program entry point
- ├── scraper/
- │    ├── login.py           # Selenium login logic
- │    ├── fetch_trades.py    # Trade scraping logic
- ├── storage/
- │    ├── database.py        # JSON-based trade storage engine
- ├── data/
- │    ├── trades.json        # Stored trades (created after first run)
- ├── requirements.txt        # Dependencies
- ├── README.md
- └── LICENSE
-
 
 
  
